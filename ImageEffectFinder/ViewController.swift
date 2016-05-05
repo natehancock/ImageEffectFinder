@@ -23,6 +23,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var alphaSlider: UISlider?
     @IBOutlet weak var alphaValue: UILabel?
     
+    @IBOutlet weak var blackSwitch: UISwitch?
+    
     var originalImage: UIImage?
     
     var blurNum: Float?
@@ -50,7 +52,13 @@ class ViewController: UIViewController {
     }
     
     func updateImage(){
-        mainImage?.image = originalImage!.applyBlurWithRadius(CGFloat(blurNum!), tintColor: UIColor(white: CGFloat(whiteNum!), alpha: CGFloat(alphaNum!)), saturationDeltaFactor: CGFloat(satNum!))
+        if blackSwitch!.on {
+            var blackColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: CGFloat(alphaNum!))
+            mainImage?.image = originalImage!.applyBlurWithRadius(CGFloat(blurNum!), tintColor: blackColor, saturationDeltaFactor: CGFloat(satNum!))
+        } else {
+            mainImage?.image = originalImage!.applyBlurWithRadius(CGFloat(blurNum!), tintColor: UIColor(white: CGFloat(whiteNum!), alpha: CGFloat(alphaNum!)), saturationDeltaFactor: CGFloat(satNum!))
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
