@@ -25,7 +25,7 @@
                                     <constraint firstAttribute="width" secondItem="0MR-AA-IFQ" secondAttribute="height" multiplier="1:0.5" id="T5A-1a-TrJ"/>
                                 </constraints>
                             </imageView>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="voj-c5-czb">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="40" translatesAutoresizingMaskIntoConstraints="NO" id="voj-c5-czb">
                                 <rect key="frame" x="128" y="331" width="392" height="31"/>
                                 <connections>
                                     <action selector="blurSliderDidMove:" destination="BYZ-38-t0r" eventType="touchDragInside" id="11L-iL-vfT"/>
@@ -161,11 +161,9 @@
                     <connections>
                         <outlet property="alphaSlider" destination="Pwg-mh-OKe" id="gce-Kr-CnM"/>
                         <outlet property="alphaValue" destination="Nzc-5u-BxD" id="YOE-Sf-re3"/>
-                        <outlet property="blurLabel" destination="cpe-ln-Xix" id="BG1-eQ-T43"/>
                         <outlet property="blurSlider" destination="voj-c5-czb" id="AMA-ue-2vk"/>
                         <outlet property="blurValue" destination="ObW-iG-jEG" id="Z6p-hq-o5d"/>
                         <outlet property="mainImage" destination="0MR-AA-IFQ" id="h7p-6r-kyK"/>
-                        <outlet property="satLabel" destination="51V-eC-Sdt" id="d9s-Ks-H4x"/>
                         <outlet property="satSlider" destination="Y6d-rW-8fe" id="nke-7x-NOd"/>
                         <outlet property="satValue" destination="7Tc-6z-Llz" id="Xor-4A-UFt"/>
                         <outlet property="whiteSlider" destination="1B8-vu-X6k" id="1Nm-dR-4kT"/>

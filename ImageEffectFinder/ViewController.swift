@@ -11,10 +11,9 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var mainImage: UIImageView?
-    @IBOutlet weak var blurLabel: UILabel?
+    
     @IBOutlet weak var blurSlider: UISlider?
     @IBOutlet weak var blurValue: UILabel?
-    @IBOutlet weak var satLabel: UILabel?
     @IBOutlet weak var satSlider: UISlider?
     @IBOutlet weak var satValue: UILabel?
     
