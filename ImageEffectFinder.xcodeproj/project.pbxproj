@@ -12,6 +12,8 @@
 		430E27BA1CDB8BDF0056CFDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430E27B81CDB8BDF0056CFDB /* Main.storyboard */; };
 		430E27BC1CDB8BDF0056CFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430E27BB1CDB8BDF0056CFDB /* Assets.xcassets */; };
 		430E27BF1CDB8BDF0056CFDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430E27BD1CDB8BDF0056CFDB /* LaunchScreen.storyboard */; };
+		430E27C71CDB8DA60056CFDB /* UIImageEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430E27C61CDB8DA60056CFDB /* UIImageEffects.swift */; };
+		430E27C91CDB91EC0056CFDB /* poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 430E27C81CDB91EC0056CFDB /* poster.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		430E27BB1CDB8BDF0056CFDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		430E27BE1CDB8BDF0056CFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		430E27C01CDB8BDF0056CFDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		430E27C61CDB8DA60056CFDB /* UIImageEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageEffects.swift; sourceTree = "<group>"; };
+		430E27C81CDB91EC0056CFDB /* poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poster.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,9 @@
 		430E27B31CDB8BDF0056CFDB /* ImageEffectFinder */ = {
 			isa = PBXGroup;
 			children = (
+				430E27C81CDB91EC0056CFDB /* poster.jpg */,
 				430E27B41CDB8BDF0056CFDB /* AppDelegate.swift */,
+				430E27C61CDB8DA60056CFDB /* UIImageEffects.swift */,
 				430E27B61CDB8BDF0056CFDB /* ViewController.swift */,
 				430E27B81CDB8BDF0056CFDB /* Main.storyboard */,
 				430E27BB1CDB8BDF0056CFDB /* Assets.xcassets */,
@@ -124,6 +130,7 @@
 			files = (
 				430E27BF1CDB8BDF0056CFDB /* LaunchScreen.storyboard in Resources */,
 				430E27BC1CDB8BDF0056CFDB /* Assets.xcassets in Resources */,
+				430E27C91CDB91EC0056CFDB /* poster.jpg in Resources */,
 				430E27BA1CDB8BDF0056CFDB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				430E27B71CDB8BDF0056CFDB /* ViewController.swift in Sources */,
 				430E27B51CDB8BDF0056CFDB /* AppDelegate.swift in Sources */,
+				430E27C71CDB8DA60056CFDB /* UIImageEffects.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
